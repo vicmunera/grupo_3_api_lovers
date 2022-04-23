@@ -1,12 +1,12 @@
 
 # I ❤️ NFT Grupo_3 
 ___
- #### I ❤️ NFT es un E-comerce pensado para todas aquellas personas, que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar que ofrece el mercado. Los NFT o 'tokens' no fungibles, son activos digitales certificados mediante la tecnología blockchain. La criptografía de estos tokens es la que convierte estos activos en únicos: no hay dos iguales, y no se pueden cambiar entre sí. Esto permite acreditar que la persona que lo ha comprado es su único propietario.
+ #### I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar que ofrece el mercado. Los NFT o 'tokens' no fungibles, son activos digitales certificados mediante la tecnología blockchain. La criptografía de estos tokens es la que convierte estos activos en únicos: no hay dos iguales, y no se pueden cambiar entre sí. Esto permite acreditar que la persona que lo ha comprado es su único propietario.
 
 
 
 
-#### Te invitamos a conocer más sobre NFT   <a href = 'https://www.xataka.com/basics/que-nft-como-funcionan'>  ☞ ' Aquí ' </a> ☜
+#### Te invitamos a conocer más sobre NFT   <a href = 'https://www.xataka.com/basics/que-nft-como-funcionan'>  ☞' Aquí ' </a>☜
 
 
 
@@ -27,4 +27,4 @@ ___
 
  + **Margarita Gonzalez**: soy estudiante de Derecho, tengo 21 años y vivo en CABA. Me gusta escuchar podcasts, leer libros y juntarme con amigxs.
 
- + **Braian Maynard**: Técnico en telecomunicaciones, 25 años, vivo en Gualeguaychú, Entre Ríos. Fan de River Plate y la buena música. adentrandome en el mundo de la programación  
+ + **Braian Maynard**: Técnico en telecomunicaciones, 25 años, vivo en Gualeguaychú, Entre Ríos. Fan de River Plate y la buena música. adentrandome en el mundo de la programación
