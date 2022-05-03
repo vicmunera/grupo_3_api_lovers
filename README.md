@@ -27,6 +27,6 @@ ___
  + **Margarita Gonzalez**: soy estudiante de Derecho, tengo 21 años y vivo en CABA. Me gusta escuchar podcasts, leer libros y juntarme con amigxs.
 
  + **Braian Maynard**: Técnico en telecomunicaciones, 25 años, vivo en Gualeguaychú, Entre Ríos. Fan de River Plate y la buena música. adentrandome en el mundo de la programación 
- + #### Tablero de trabajo. 📲 💻 👩‍💻 
+ #### Tablero de trabajo. 📲 💻 👩‍💻 
  + <a href ='https://trello.com/b/FQjIuUeb/proyecto-integrador-sprint-1'> Trello </a>
 
