@@ -1,0 +1,22 @@
+{
+  "name": "grupo_3_api_lovers",
+  "version": "1.0.0",
+  "description": "proyecto integrador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicmunera/grupo_3_api_lovers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicmunera/grupo_3_api_lovers/issues"
+  },
+  "homepage": "https://github.com/vicmunera/grupo_3_api_lovers#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
