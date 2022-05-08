@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: rgb(243, 243, 243);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #193b55;
+}
+
+.barra-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    background-color: #2c638d;
+    color: rgb(255, 255, 255);
+}
+
+.barra-logo img {
+    width: 120px;
+    padding: 15px;
+}
+
+.iconos-barra-logo {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-header ul {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.menu-header ul li {
+   margin-left: 50px;
+}
+
+main {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #193b55;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nosotros {
+    width: 200px;
+}
+
+.nosotros p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.acceso-footers {
+    width: 200px;
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.acceso-footers ul li{
+    list-style: none;
+}
