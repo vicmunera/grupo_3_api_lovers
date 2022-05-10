@@ -94,3 +94,16 @@ footer {
 .acceso-footers ul li{
     list-style: none;
 }
+
+.register-body {
+    display: flex;
+    width:100%;
+}
+
+.register-body .user-img {
+    width: 40%;
+}
+
+.register-body .user-info {
+    width: 40%;
+}
