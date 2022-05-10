@@ -31,7 +31,7 @@
         </section>
     </header>
 
-    <main class="register-body">
+<main class="register-body">
     <div class="user-img">
         <label class="header">Profile Photo:</label>
                 <input id="image" type="file" name="profile_photo" placeholder="Foto de perfil" capture>
@@ -39,6 +39,7 @@
 
     <div class="user-info">
       <form action="POST" class="login-form">
+        <label for="name">Nombre</label>
         <input
           type="text"
           class="login-input"
@@ -47,6 +48,7 @@
           minlength="4"
         />
         
+        <label for="surname">Apellido</label>
         <input
           type="text"
           class="login-input"
@@ -55,9 +57,10 @@
           minlength="3"
         />
 
-        <h4>Fecha de nacimiento</h4>
+        <label for="date">Fecha de nacimiento</label>
         <input type="date" class="login-input" required />
 
+        <label for="username">Usuario</label>
         <input
           type="text"
           class="login-input"
@@ -66,8 +69,10 @@
           minlength="5"
         />
 
+        <label for="email">Email</label>
         <input type="email" class="login-input" required placeholder="E-mail" />
          
+        <label for="psw">Contraseña</label>
         <input
           type="password"
           class="login-input"
@@ -75,6 +80,8 @@
           minlength="5"
           placeholder="Contraseña"
         />
+
+        <label for="psw2">Repetir Contraseña</label>
         <input
           type="password"
           class="login-input"
