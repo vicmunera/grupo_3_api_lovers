@@ -94,3 +94,88 @@ footer {
 .acceso-footers ul li{
     list-style: none;
 }
+
+.carrousel-novedades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel-imagen {
+    width: 80%;
+    height: 400px;
+    background-color: #193b55;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.top-autor {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 60px;
+   
+}
+
+.autor {
+    width: 15%;
+    height: 200px;
+    background-color: #193b55;
+    color: white;
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: baseline;
+    vertical-align: baseline;
+}
+
+.contenedor-autores {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.venta {
+    width: 15%;
+    height: 120px;
+    background-color: #193b55;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: baseline;
+    vertical-align: baseline;
+}
+
+.contenedor-preguntas {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.pregunta {
+    width: 80%;
+    padding: 10px;
+    border-bottom: #193b55;
+    
+    color: black;
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
