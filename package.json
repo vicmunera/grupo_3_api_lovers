@@ -4,7 +4,7 @@
   "description": "proyecto integrador",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/vicmunera/grupo_3_api_lovers#readme",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.16"
   },
   "devDependencies": {}

@@ -95,6 +95,7 @@ footer {
     list-style: none;
 }
 
+<<<<<<< HEAD
 .carrousel-novedades {
     width: 100%;
     display: flex;
@@ -177,5 +178,69 @@ footer {
     flex-direction: column;
     align-items:center;
     justify-content: center;
+=======
+.register-body {
+    display: flex;
+    width:100%;
+}
+
+.register-body .user-img {
+    width: 40%;
+    display:flex;
+    flex-direction:column
+}
+
+.register-body .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.user-img .header{
+    font-size: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.user-info .login-button{
+    background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.user-info .login-button:hover {
+    opacity: 0.8;
+  }
+
+
+.user-info .login-input {
+    width: 100%
+}
+
+input {
+    margin-bottom: 7px;
+}
+
+.login-button,
+.createuser {
+    width: 100px
+}
+
+.renglon {
+    width: 100%;
+    margin-bottom: 5px;
+>>>>>>> 40d47761e6fda055b13b4b33a20ae8c51ecbd431
 }
 
