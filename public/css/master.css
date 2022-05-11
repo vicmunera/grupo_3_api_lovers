@@ -95,7 +95,6 @@ footer {
     list-style: none;
 }
 
-<<<<<<< HEAD
 .carrousel-novedades {
     width: 100%;
     display: flex;
@@ -178,7 +177,7 @@ footer {
     flex-direction: column;
     align-items:center;
     justify-content: center;
-=======
+}
 .register-body {
     display: flex;
     width:100%;
@@ -241,6 +240,32 @@ input {
 .renglon {
     width: 100%;
     margin-bottom: 5px;
->>>>>>> 40d47761e6fda055b13b4b33a20ae8c51ecbd431
 }
 
+
+.contenedor-producto {
+    width:100%;
+}
+
+.detalle-producto {
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px
+}
+
+.foto-producto {
+    width: 30%;
+    height: 200px;
+}
+
+.detalle-producto {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px
+}
