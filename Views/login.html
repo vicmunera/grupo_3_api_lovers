@@ -28,12 +28,39 @@
     </header>
 
     <main>
+        <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <h2 style="text-align:center">Registrate</h2>
+           
+      
+            
+      
+            <div>
+              <div class="hide-md-lg">
+                <p>Crea tu usuario</p>
+              </div>
         <form action="POST" class="login-form">
-          <input class="login-input" type="text" placeholder="Usuario" required minlength="4"/>
+            <input class="login-input" type="text" placeholder="Usuario" required minlength="4"/>
           <input class="login-input" type="password" placeholder="Contraseña" required minlength="5"/>
 
           <div class="renglon"> <button class="login-button" type="submit">Login</button> </div>
           
+          
+          <div class="col">
+              <p class="redes">O ingresa con tus redes sociales:</p>
+              <a href="http://www.facebook.com/" class="fb btn">
+                <i class="fab fa-facebook-square"></i></i> Login with Facebook
+            </a>
+            <a href="http://www.twitter.com/" class="twitter btn">
+                <i class="fab fa-twitter-square"></i> Login with Twitter
+            </a>
+            <a href="https://mail.google.com/" class="google btn">
+                <i class="fab fa-google-plus-square"></i> Login with Google
+            </a>
+          </div>
+
+
           <div class="renglon"><label>
             <input type="checkbox" checked="checked" name="remember" >Remember me</label>
         </div>
@@ -47,13 +74,50 @@
             <h4>Sobre Nosotros</h4>
             <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
         </div>
-        <div class="accesos-footer">
+        <div class="marketplace">
+            <h4>Colecciones</h4>
             <ul>
-                <li href="#">Contacto</li>
-                <li href="#">Ayuda</li>
+                <li href="#">Artes</li>
+                <li href="#">Deportes</li>
+                <li href="#">Juegos</li>
+                <li href="#">Premiun</li>
+            </ul>
+        </div>
+        
+
+        <div class="my-account">
+            <h4>Mi Cuenta</h4>
+            <ul>
+                <li href="#">Perfil</li>
+                <li href="#">Favoritos</li>
+                <li href="#">Mis colecciones</li>
+                <li href="#">Ajustes de perfil</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h4>Contactanos</h4>
+            <a href="http://www.facebook.com/" class="contacto">
+                <i class="fab fa-facebook-square"></i></i>Facebook
+            </a>
+            <a href="http://www.twitter.com/" class="contacto">
+                <i class="fab fa-twitter-square"></i>Twitter
+            </a>
+            <a href="https://www.instagram.com/" class="contacto">
+                <i class="fab fa-instagram"></i>Instagram
+            </a>
+        </div>
+
+
+        <div class="accesos-footer">
+            <h4>Enlaces</h4>
+            <ul>
+                <li href="#">Soporte</li>
+                <li href="#">Centro de ayuda</li>
                 <li href="#">Home</li>
             </ul>
         </div>
     </footer>
+   
 </body>
 </html>

@@ -234,7 +234,12 @@ input {
 
 .login-button,
 .createuser {
-    width: 100px
+    width: 100px;
+    height: 40px;
+}
+
+.createuser {
+    text-align: center;
 }
 
 .renglon {
@@ -256,9 +261,10 @@ input {
     padding: 20px
 }
 
-.foto-producto {
+.foto-producto{
     width: 30%;
     height: 200px;
+    background-color: #193b55;
 }
 
 .detalle-producto {
@@ -269,3 +275,52 @@ input {
     justify-content: space-around;
     padding: 20px
 }
+
+.boton {
+    width:100px;
+    margin-right: 5px;
+    height: 50px;
+    vertical-align: baseline;
+}
+
+.botonera-producto{
+    display: flex;
+}
+
+
+.foto-perfil {
+    width: 40%;
+    height: 200px;
+    background-color: #193b55;
+}
+
+.redes, .renglon {
+    margin: 10px auto;
+}
+
+.btn {
+    margin-right: 15px;
+    font-style: normal;
+    color:#193b55;
+}
+
+.contacto,
+.fab fa-instagram-square {
+    color: white;
+    margin-bottom: 3px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font: bolder;
+    margin-bottom: 5px;
+}
+
