@@ -13,16 +13,16 @@
     <header>
         <section class="barra-logo">
             <div class="logo">
-                <img src="/images/logo_NFT-logo.png">
+                <a href="/"><img src="/images/logo_NFT-logo.png"></a>
             </div>
             <div class="iconos-barra-logo">
-                <i class="fas fa-user"></i>
-                <i class="fas fa-shopping-cart"></i>
+                <a href="/login"><i class="fas fa-user"></i></a>
+                <a href="/productCart"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </section>
         <section class="menu-header">
             <ul>
-                <li href="#"><i class="fas fa-home"></i></li>
+                <a href="/"><li href="#"><i class="fas fa-home"></i></li></a>
                 <li href="#">CATEGORÍAS</i></li>
                 <li href="#">TOP VENTAS</i></li>
                 <li href="#">NUEVOS</i></li>
@@ -34,6 +34,7 @@
 <main class="register-body">
     <div class="user-img">
         <label class="header">Profile Photo:</label>
+        <div class="foto-perfil"></div>
                 <input id="image" type="file" name="profile_photo" placeholder="Foto de perfil" capture>
     </div>
 
@@ -70,7 +71,7 @@
         />
 
         <label for="email">Email</label>
-        <input type="email" class="login-input" required placeholder="E-mail" />
+        <i class="fa fa-envelope icon"></i><input type="email" class="login-input" required placeholder="E-mail" />
          
         <label for="psw">Contraseña</label>
         <input
@@ -97,17 +98,54 @@
     </main>
 
     <footer>
-        <div class="nosotros">
-            <h4>Sobre Nosotros</h4>
-            <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
-        </div>
-        <div class="accesos-footer">
-            <ul>
-                <li href="#">Contacto</li>
-                <li href="#">Ayuda</li>
-                <li href="#">Home</li>
-            </ul>
-        </div>
-    </footer>
-  </body>
+      <div class="nosotros">
+          <h4>Sobre Nosotros</h4>
+          <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
+      </div>
+      <div class="marketplace">
+          <h4>Colecciones</h4>
+          <ul>
+              <li href="#">Artes</li>
+              <li href="#">Deportes</li>
+              <li href="#">Juegos</li>
+              <li href="#">Premiun</li>
+          </ul>
+      </div>
+      
+
+      <div class="my-account">
+          <h4>Mi Cuenta</h4>
+          <ul>
+              <li href="#">Perfil</li>
+              <li href="#">Favoritos</li>
+              <li href="#">Mis colecciones</li>
+              <li href="#">Ajustes de perfil</li>
+          </ul>
+      </div>
+
+      <div class="contact">
+          <h4>Contactanos</h4>
+          <a href="http://www.facebook.com/" class="contacto">
+              <i class="fab fa-facebook-square"></i></i>Facebook
+          </a>
+          <a href="http://www.twitter.com/" class="contacto">
+              <i class="fab fa-twitter-square"></i>Twitter
+          </a>
+          <a href="https://www.instagram.com/" class="contacto">
+              <i class="fab fa-instagram"></i>Instagram
+          </a>
+      </div>
+
+
+      <div class="accesos-footer">
+          <h4>Enlaces</h4>
+          <ul>
+              <li href="#">Soporte</li>
+              <li href="#">Centro de ayuda</li>
+              <li href="#">Home</li>
+          </ul>
+      </div>
+  </footer>
+ 
+</body>
 </html>

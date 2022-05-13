@@ -18,7 +18,7 @@ res.sendFile(path.resolve(__dirname, './Views/home.html'))
 });
 
 app.get('/login', (req,res) =>{
-    res.sendFile(path.resolve(__dirname, './Views/login.html'))
+    res.sendFile(__dirname + '/Views/login.html');
     });
 
 app.get('/register', (req,res) =>{
@@ -29,6 +29,6 @@ app.get('/productDetail', (req,res) =>{
     res.sendFile(path.resolve(__dirname, './Views/productDetail.html'))
     }); 
 
-    app.get('/productCart', (req,res) =>{
-        res.sendFile(path.resolve(__dirname, './Views/productCart.html'))
-        });
+app.get('/productCart', (req,res)=>{
+     res.sendFile(__dirname + '/Views/productCart.html');
+    });
