@@ -1,22 +1,55 @@
-.produc1 img {
+img{
     width: 15%;
+
 }
 
-.produc2 img {
-    width: 15%;
-}
-
-.produc3 img {
-    width: 15%;
-}
-.produc4 img {
-    width: 15%;
-    }
 main div img{
     padding: 10px;
-    
     border-style: solid;
     border-radius: 10%;
+    background-color: black;
+}
+main div {
+    position: relative;
+    left: 10%;
+    border-style: solid;
+    border-radius: 25px;
+    width: 80%;
+    padding: 10px;
+    background-color:rgb(95, 95, 96);
+    
+
+}
+div .produc1{
+    padding-bottom: 60px;
+}
+.precio{
+    width: 10%;
+    position: relative;
+    left: 90%;
+    bottom:100px;
+    font: small-caption;
+    text-align: center;
+    background-color: rgba(120, 229, 11, 0.333);
+
+}
+.comprar{
+    position: relative;
+    left: 30%;
+    text-align: center;
+    width: 50%;
+    font: small-caption;
+    background-color: rgba(120, 229, 11, 0.333);
+    padding-bottom: 2px;
+}
+.trash{
+    position: relative;
+    left: 90%;
+   bottom: 100px;
+    width: 6%;
+    background-color: rgba(120, 229, 11, 0.333);
+    text-align: center;
 }
 
+ 
  
