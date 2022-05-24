@@ -12,164 +12,148 @@
 <body>
     <header>
         <section class="barra-logo">
-            <div class="logo">
-                <a href="/"><img src="/images/logo_NFT-logo.png"></a>
+            
+            <div class="menu-hamburguesa">
+            <i class="fas fa-bars"></i>
             </div>
+            
+            <div class="logo">
+                <img src="../public/images/logo_NFT-logo.png">
+            </div>
+            
             <div class="iconos-barra-logo">
-                <a href="/register"><i class="fas fa-instagram">Registrate</i></a>
-                <a href="/login"><i class="fas fa-user"></i></a>
-                <a href="/productCart"><i class="fas fa-shopping-cart"></i></a>
+              <!--  <i class="fas fa-user"></i> -->
+                <i class="fas fa-shopping-cart"></i>
             </div>
         </section>
         <section class="menu-header">
             <ul>
-                <a href="/"><li href="#"><i class="fas fa-home"></i></li></a>
-                <li href="#">CATEGORÍAS</i></li>
-                <li href="#">TOP VENTAS</i></li>
-                <li href="#">NUEVOS</i></li>
-                <li href="#">RECURSOS</i></li>
+                <li href="#"><i class="fas fa-home"></i></li>
+                <li href="#">CATEGORÍAS</li>
+                <li href="#">TOP VENTAS</li>
+                <li href="#">NUEVOS</li>
+                <li href="#">RECURSOS</li>
             </ul>
+        </section>
+        <section class="buscador">
+            <input type="text" class="caja-buscador" placeholder="Buscador">
+            <button type="submit" class="boton-buscador">
+                <i class="fa fa-search"></i>
+            </button>
         </section>
     </header>
     <main>
-        <section class="carrousel-novedades">
-            <div class="carrousel-imagen">
-                <h1>CARROUSEL NOVEDADES</h1>
-            </div>
+        <section class="novedades">
+            <section class="carrousel-novedades">
+                <div class="flecha"><i class="fas fa-angle-left"></i></div>
+                <div class="imagen-novedades"><img src="../public/images/novedades_01_mono.jpg" alt="imagen-nocedades"></div>
+                <div class="flecha"><i class="fas fa-angle-right"></i> </div>
+                </section>
+                <div class="info-novedades">
+                    <div class="texto-novedades"> <p>Explora las diferentes colecciones. Te presentamos el nuevo mercado online de NFT</p></div>
+                    <div class="espacio-boton-novedades"><button class="boton-novedades" type="button" >VER MÁS</button></div>
+                </div>
         </section>
-        <section class="top-autor">
-            <h2>TOP AUTORES</h2>
-            <div class="contenedor-autores">
-                <div class="autor">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
+        <section class="novedades-tablet">
+            <div class="flechas-tablet"><i class="fas fa-angle-left"></i></div>
+            <div class="novedades-imagen-tablet"><img src="../public/images/novedades_01_mono.jpg" alt="imagen-nocedades"></div>
+            <div class="info-novedades-tablet">
+                <div class="info-novedades-tablet-texto"><p>Explora las diferentes colecciones. Te presentamos el nuevo mercado online de NFT</p></div>
+                <div class="info-novedades-tablet-boton"><button class="boton-novedades" type="button" >VER MÁS</button></div>
+            </div>
+            <div class="flechas-tablet"><i class="fas fa-angle-right"></i></div>
+        </section>
+        <section class="nuevas-obras">
+            <h1>Nuevas Obras <i class="fas fa-angle-right"></i> </h1>
+                <div class="galeria-obras">
+                   <div class="obra-individual">
+                    <img src="../public/images/nuevas-obras-01.jpg">
+                    
+                  </div>
+                    <div class="obra-individual">
+                    <img src="../public/images/nuevas-obras-02.jpg">
+                    
                 </div>
-                <div class="autor">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
+                    
+                    <div class="obra-individual">
+                    <img src="../public/images/nuevas-obras-03.jpg">
+                    
                 </div>
-                <div class="autor">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
+                    
+                    <div class="obra-individual">
+                    <img src="../public/images/nuevas-obras-04.jpg">
+                    
                 </div>
-                <div class="autor">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
+                </div>
+        </section>
+        <section class="top-artistas">
+            <h1>TOP ARTISTAS <i class="fas fa-angle-right"></i></h1>
+            <div class="galeria-top-artistas">
+                <div class="artista">
+                    <div class ="imagen-artista"><img src="../public/images/arista-01.jpg"></div>
+                    <div class="datos-artista">
+                        <h3>Nombre</h3>
+                        <p>Actualmente tiene 25 obras a la venta</p>
+                    </div>
+                </div>
+                <div class="artista">
+                    <div class ="imagen-artista"><img src="../public/images/artista-02.jpg"></div>
+                    <div class="datos-artista">
+                        <h3>Nombre</h3>
+                        <p>Actualmente tiene 25 obras a la venta</p>
+                    </div>
+                </div>
+                <div class="artista">
+                    <div class ="imagen-artista"><img src="../public/images/artista-03.jpg"></div>
+                    <div class="datos-artista">
+                        <h3>Nombre</h3>
+                        <p>Actualmente tiene 25 obras a la venta</p>
+                    </div>
+                </div>
+                <div class="artista">
+                    <div class ="imagen-artista"><img src="../public/images/artista-04.png"></div>
+                    <div class="datos-artista">
+                        <h3>Nombre</h3>
+                        <p>Actualmente tiene 25 obras a la venta</p>
+                    </div>
                 </div>
             </div>
+        
         </section>
         
-        
-        <section class="top-autor">
-            <h2>TOP VENTAS</h2>
-            <div class="contenedor-autores">
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
-                <div class="venta">
-                    <h3>@user</h3>
-                    <p>Precio minimo</p>
-                </div>
+        <section class="top-artistas">
+            <h1>Preguntas Frecuentes <i class="fas fa-angle-down"></i></h1>
+            <div class="preguntas-frecuentes">
+            
+            <div clas="pregunta-1">Pregunta 1</div>
+            <i class="fas fa-angle-down"></i>
             </div>
+            <div class="preguntas-frecuentes">
+                <div clas="pregunta-1">Pregunta 1</div>
+            <i class="fas fa-angle-down"></i>
+            </div>
+             <div class="preguntas-frecuentes">    
+                <div clas="pregunta-1">Pregunta 2</div>
+            <i class="fas fa-angle-down"></i>
+            </div>
+            <div class="preguntas-frecuentes">
+                <div clas="pregunta-1">Pregunta 3</div>
+            <i class="fas fa-angle-down"></i>
+                
+        </div>
+        
         </section>
         
-        <section class="top-autor">
-            <h2>PREGUNTAS FRECUENTAS</h2>
-            <div class="contenedor-preguntas">
-                <div class="pregunta">
-                    <h3>PREGUNTA</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis nec urna eu placerat. Pellentesque non ante quis odio ullamcorper pulvinar sit amet non diam. Sed ultricies, augue nec tincidunt consectetur, justo erat finibus diam, at aliquet massa nisi ac tortor.</p>
-                </div>
-                <div class="pregunta">
-                    <h3>PREGUNTA</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis nec urna eu placerat. Pellentesque non ante quis odio ullamcorper pulvinar sit amet non diam. Sed ultricies, augue nec tincidunt consectetur, justo erat finibus diam.</p>
-                </div>
-                <div class="pregunta">
-                    <h3>PREGUNTA</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis nec urna eu placerat. Pellentesque non ante quis odio ullamcorper pulvinar sit amet non diam. Sed ultricies, augue nec tincidunt consectetur, justo erat finibus diam, at aliquet massa nisi ac tortor.</p>
-                </div>
-            </div>
-        </section>
-
     </main>
     <footer>
         <div class="nosotros">
             <h4>Sobre Nosotros</h4>
             <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
         </div>
-        <div class="marketplace">
-            <h4>Colecciones</h4>
-            <ul>
-                <li href="#">Artes</li>
-                <li href="#">Deportes</li>
-                <li href="#">Juegos</li>
-                <li href="#">Premiun</li>
-            </ul>
-        </div>
-        
-
-        <div class="my-account">
-            <h4>Mi Cuenta</h4>
-            <ul>
-                <li href="#">Perfil</li>
-                <li href="#">Favoritos</li>
-                <li href="#">Mis colecciones</li>
-                <li href="#">Ajustes de perfil</li>
-            </ul>
-        </div>
-
-        <div class="contact">
-            <h4>Contactanos</h4>
-            <a href="http://www.facebook.com/" class="contacto">
-                <i class="fab fa-facebook-square"></i></i>Facebook
-            </a>
-            <a href="http://www.twitter.com/" class="contacto">
-                <i class="fab fa-twitter-square"></i>Twitter
-            </a>
-            <a href="https://www.instagram.com/" class="contacto">
-                <i class="fab fa-instagram"></i>Instagram
-            </a>
-        </div>
-
-
         <div class="accesos-footer">
-            <h4>Enlaces</h4>
             <ul>
-                <li href="#">Soporte</li>
-                <li href="#">Centro de ayuda</li>
+                <li href="#">Contacto</li>
+                <li href="#">Ayuda</li>
                 <li href="#">Home</li>
             </ul>
         </div>
