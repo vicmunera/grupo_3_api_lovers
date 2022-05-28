@@ -5,45 +5,23 @@
     <%- include('./partials/header') %>
 
     <main>
-        <div class="container">
-        <form action="/action_page.php">
-          <div class="row">
-            <h2 style="text-align:center">Registrate</h2>
-           
-      
-            
-      
-            <div>
-              <div class="hide-md-lg">
-                <p>Crea tu usuario</p>
-              </div>
-        <form action="POST" class="login-form">
-            <input class="login-input" type="text" placeholder="Usuario" required minlength="4"/>
-          <input class="login-input" type="password" placeholder="Contraseña" required minlength="5"/>
-
-          <div class="renglon"> <button class="login-button" type="submit">Login</button> </div>
-          
-          
-          <div class="col">
-              <p class="redes">O ingresa con tus redes sociales:</p>
-              <a href="http://www.facebook.com/" class="fb btn">
-                <i class="fab fa-facebook-square"></i></i> Login with Facebook
-            </a>
-            <a href="http://www.twitter.com/" class="twitter btn">
-                <i class="fab fa-twitter-square"></i> Login with Twitter
-            </a>
-            <a href="https://mail.google.com/" class="google btn">
-                <i class="fab fa-google-plus-square"></i> Login with Google
-            </a>
+        <div class="login">
+            <div class="form">
+              <form class="registro-form">
+                <input type="text" placeholder="name"/>
+                <input type="password" placeholder="password"/>
+                <input type="text" placeholder="email address"/>
+                <button>Crear</button>
+                <p class="message">¿No estas registrado? <a href="#">Iniciar Sesión</a></p>
+              </form>
+              <form class="login-form">
+                <input type="text" placeholder="Usuario"/>
+                <input type="password" placeholder="Contraseña"/>
+                <button>Iniciar Sesión</button>
+                <p class="message">¿No estas registrado?<a href="#">Crear una cuenta</a></p>
+              </form>
+            </div>
           </div>
-
-
-          <div class="renglon"><label>
-            <input type="checkbox" checked="checked" name="remember" >Remember me</label>
-        </div>
-          
-        <div class="renglon"><button type="button" class="createuser"><a href="/views/register.html"></a>Crear Usuario</a></button></div>
-        </form>
       </main>
 
       <%- include('./partials/footer') %>
