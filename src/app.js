@@ -13,14 +13,15 @@ const publicPath = path.resolve(__dirname, '../public');
 app.use(express.static(publicPath));
 
 app.use("/",mainRouter); 
-app.use("/product",productRouter)
+app.use("/detail",productRouter);
+
 app.listen(3000,() => {
     console.log("servidor corriendo en el puerto 3000");
 });
 
 
 app.get('/login', (req,res) =>{
-    res.sendFile(__dirname + '/Views/login.html');
+    res.sendFile(__dirname + '/Views/login');
     });
 
 app.get('/register', (req,res) =>{
