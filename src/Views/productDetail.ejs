@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>I ❤️ NFT </title>
-    <link rel="stylesheet" href="/css/master.css">
-</head>
+<%- include('./partials/head') %>
 <body>
-    <header>
-        <section class="barra-logo">
-            <div class="logo">
-                <a href="/"><img src="/images/logo_NFT-logo.png"></a>
-            </div>
-            <div class="iconos-barra-logo">
-                <a href="/login"><i class="fas fa-user"></i></a>
-                <a href="/productCart"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-        </section>
-        <section class="menu-header">
-            <ul>
-                <a href="/"><li href="#"><i class="fas fa-home"></i></li></a>
-                <li href="#">CATEGORÍAS</i></li>
-                <li href="#">TOP VENTAS</i></li>
-                <li href="#">NUEVOS</i></li>
-                <li href="#">RECURSOS</i></li>
-            </ul>
-        </section>
-    </header>
+    <%- include('./partials/header') %>
     
     <main>
         <section class="contenedor-producto">
@@ -49,55 +20,7 @@
         </section>
     </main>
     
-    <footer>
-        <div class="nosotros">
-            <h4>Sobre Nosotros</h4>
-            <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
-        </div>
-        <div class="marketplace">
-            <h4>Colecciones</h4>
-            <ul>
-                <li href="#">Artes</li>
-                <li href="#">Deportes</li>
-                <li href="#">Juegos</li>
-                <li href="#">Premiun</li>
-            </ul>
-        </div>
-        
-
-        <div class="my-account">
-            <h4>Mi Cuenta</h4>
-            <ul>
-                <li href="#">Perfil</li>
-                <li href="#">Favoritos</li>
-                <li href="#">Mis colecciones</li>
-                <li href="#">Ajustes de perfil</li>
-            </ul>
-        </div>
-
-        <div class="contact">
-            <h4>Contactanos</h4>
-            <a href="http://www.facebook.com/" class="contacto">
-                <i class="fab fa-facebook-square"></i></i>Facebook
-            </a>
-            <a href="http://www.twitter.com/" class="contacto">
-                <i class="fab fa-twitter-square"></i>Twitter
-            </a>
-            <a href="https://www.instagram.com/" class="contacto">
-                <i class="fab fa-instagram"></i>Instagram
-            </a>
-        </div>
-
-
-        <div class="accesos-footer">
-            <h4>Enlaces</h4>
-            <ul>
-                <li href="#">Soporte</li>
-                <li href="#">Centro de ayuda</li>
-                <li href="#">Home</li>
-            </ul>
-        </div>
-    </footer>
+    <%- include('./partials/footer') %>
    
 </body>
 </html>

@@ -1,40 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>I ❤️ NFT </title>
-    <link rel="stylesheet" href="/css/cart.css">
-    <link rel="stylesheet" href="/css/master.css">
-</head>
+<%- include('./partials/head') %>
 
 <body>
-    <header>
-        <section class="barra-logo">
-            <div class="logo">
-                <a href="/"><img src="/images/logo_NFT-logo.png"></a>
-            </div>
-            <div class="iconos-barra-logo">
-                <a href="/login"><i class="fas fa-user"></i></a>
-                <a href="/productCart"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-        </section>
-        <section class="menu-header">
-            <ul>
-                <a href="/">
-                    <li href="#"><i class="fas fa-home"></i></li>
-                </a>
-                <li href="#">CATEGORÍAS</i></li>
-                <li href="#">TOP VENTAS</i></li>
-                <li href="#">NUEVOS</i></li>
-                <li href="#">RECURSOS</i></li>
-            </ul>
-        </section>
-    </header>
+    <%- include('./partials/header') %>
     <main>
         <div class="produc1">
 
@@ -116,20 +83,7 @@
 
     </main>
 
-    <footer>
-        <div class="nosotros">
-            <h4>Sobre Nosotros</h4>
-            <p>I ❤️ NFT es un E-comerce pensado para todas aquellas personas que quieran adquirir un NFT a modo de
-                inversión, colección, o simplemente apreciar lo que ofrece el mercado. </p>
-        </div>
-        <div class="accesos-footer">
-            <ul>
-                <li href="#">Contacto</li>
-                <li href="#">Ayuda</li>
-                <li href="#">Home</li>
-            </ul>
-        </div>
-    </footer>
+    <%- include('./partials/footer') %>
 
 </body>
 

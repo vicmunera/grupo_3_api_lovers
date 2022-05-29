@@ -251,8 +251,15 @@ footer {
     
 }
 
-.acceso-footers ul li{
+.marketplace ul li, .my-account ul li, .accesos-footer ul li{
     list-style: none;
+    padding-top: 5px;
+}
+
+.contact i{
+    color: #fff;
+    padding-left: 8px;
+    padding-top: 10px;
 }
 
 .login {
