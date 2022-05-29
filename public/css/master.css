@@ -315,6 +315,35 @@ footer {
       padding-bottom: 50px;
   }
 
+  .register-body {
+      display: flex;
+      width: 100vw
+  }
+
+  .user-img {
+      height: 80px;
+       width: 80px ;
+       background-color: #193b55;
+       position: relative;
+       margin-top: 15px;
+       margin-left: 8px;
+  }
+
+
+  .user-info {
+      margin-left: 20px;
+      width: 80%
+  }
+
+  .login-form {
+      display: flex;
+  }
+
+  .login-input {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
 /* codigo viejo, lo dejo anulado por las dudas estoy armando las cosas como mobile fisrt
 
 
@@ -523,6 +552,8 @@ main {
   max-width: 300px;
   margin: 0 auto;
 }
+
+
 
 }
 
