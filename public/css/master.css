@@ -54,6 +54,7 @@ header {
 
 .iconos-barra-logo i{
     margin-left: 15px;
+    color: #fff;
 }
 
 .menu-header {
@@ -221,46 +222,6 @@ header {
     padding-bottom: 20px;
 }
 
-footer {
-    width: 100%;
-    background-color: #193b55;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap ;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.nosotros {
-    width: 200px;
-}
-
-.nosotros p{
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.acceso-footers {
-    width: 200px;
-    display: flex;
-    font-size: 18px;
-    list-style-type: none;
-    padding: 5px;
-    margin: 10px;
-    
-}
-
-.marketplace ul li, .my-account ul li, .accesos-footer ul li{
-    list-style: none;
-    padding-top: 5px;
-}
-
-.contact i{
-    color: #fff;
-    padding-left: 8px;
-    padding-top: 10px;
-}
 
 .login {
     width: 100%;
@@ -322,6 +283,53 @@ footer {
       padding-bottom: 50px;
   }
 
+  .marketplace {
+      display: none;
+  }
+
+  .my-account {
+      display: none;
+  }
+
+  .acceso-footers{
+      display: none;
+  }
+
+  
+footer {
+    width: 100%;
+    background-color: #193b55;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact i{
+    color: #fff;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.nosotros {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.nosotros p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.accesos-footer {
+    padding-bottom: 20px;
+}
 /* codigo viejo, lo dejo anulado por las dudas estoy armando las cosas como mobile fisrt
 
 
@@ -592,4 +600,25 @@ main {
     width: 20%;
     padding: 10px;
 }
+
+
+
+
+.acceso-footers {
+    width: 200px;
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.marketplace ul li, .my-account ul li, .accesos-footer ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+
+
 }
