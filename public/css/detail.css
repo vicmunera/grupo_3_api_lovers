@@ -1,0 +1,14 @@
+.contenedor-producto{
+    background-color:rgb(95, 95, 96);
+    
+}
+
+
+.boton{
+    position: relative;
+    right: -11%;
+    text-align: center;
+    width: 80%;
+    font: small-caption;
+    background-color: rgba(120, 229, 11, 0.333);
+}
