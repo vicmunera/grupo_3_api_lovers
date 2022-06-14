@@ -1,0 +1,74 @@
+<%- include('./partials/head') %>
+
+
+    <%- include('./partials/header') %>
+        <main>
+
+            <body>
+
+
+                <div class="container products-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="products-title">Formulario de creación de productos</h2>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-12">
+                        <form action="/products/create" method="post" enctype='multipart/form-data'>
+                            <div class="row product-detail">
+                                <div class="col-12 col-md-6">
+                                    <label for="name" class="form-label">Nombre del producto:</label>
+                                    <input type="text" id="name" name="name" placeholder="Ej: mono momia"
+                                        class="form-input">
+                                </div>
+                                <br>
+
+                                <div class="col-12 col-md-6">
+                                    <label for="price" class="form-label">Precio del producto:</label>
+                                    <input type="text" id="price" name="price" placeholder="Ej: 5678"
+                                        class="form-input">
+                                </div>
+                                <br>
+                                <div class="col-12 col-md-6">
+                                    <label for="discount" class="form-label">Autor:</label>
+                                    <input type="text" id="discount" name="discount" placeholder="Ej: Braian"
+                                        class="form-input">
+                                </div>
+                                <br>
+
+                                <div class="col-12 col-md-6">
+                                    <label for="category" class="form-label">Categoría:</label>
+                                    <select name="category" id="category" class="form-input">
+                                        <option value="">Elegí</option>
+                                        <option value="in-sale">premium</option>
+                                        <option value="visited">Últimos agregados</option>
+                                        <option value="visited">Últimos días</option>
+                                        <option value="visited">Más comprados</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div class="col-12">
+                                    <label for="description" class="form-label">Descipción:</label>
+                                    <textarea name="description" id="description" class="form-input"></textarea>
+                                </div>
+                                <br>
+                                <div class="col-12">
+                                    <label for="image" class="form-label">Imagen:</label>
+                                    <input name="image" id="description" class="form-input" type="file"></textarea>
+                                </div>
+                                <br>
+
+                                <div class="col-12">
+                                    <button type="submit" class="buy-now-button">Guardar producto</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </body>
+        </main>
+        <%- include('./partials/footer') %>
+
+            </html>

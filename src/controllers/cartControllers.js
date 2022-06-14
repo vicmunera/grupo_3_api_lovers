@@ -1,5 +1,5 @@
 const controller = {
-    index: (req, res) => {
+    cart: (req, res) => {
         res.render("productCart")
     }
 }
