@@ -289,7 +289,6 @@ header {
       padding-bottom: 50px;
   }
 
-<<<<<<< HEAD
   .marketplace {
       display: none;
   }
@@ -337,37 +336,6 @@ footer {
 .accesos-footer {
     padding-bottom: 20px;
 }
-=======
-  .register-body {
-      display: flex;
-      width: 100vw
-  }
-
-  .user-img {
-      height: 80px;
-       width: 80px ;
-       background-color: #193b55;
-       position: relative;
-       margin-top: 15px;
-       margin-left: 8px;
-  }
-
-
-  .user-info {
-      margin-left: 20px;
-      width: 80%
-  }
-
-  .login-form {
-      display: flex;
-  }
-
-  .login-input {
-      width: 100%;
-      margin-bottom: 20px;
-  }
-
->>>>>>> 67c1fb6aa0c55de5d3dd8dc40bb703c64c6227f2
 /* codigo viejo, lo dejo anulado por las dudas estoy armando las cosas como mobile fisrt
 
 
@@ -642,7 +610,6 @@ main {
 }
 
 
-<<<<<<< HEAD
 
 
 .acceso-footers {
@@ -662,6 +629,4 @@ main {
 
 
 
-=======
->>>>>>> 67c1fb6aa0c55de5d3dd8dc40bb703c64c6227f2
 }
