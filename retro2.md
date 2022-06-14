@@ -34,3 +34,4 @@ A lo largo de la realización del Sprint 2 debimos  trabajar contrarreloj. En es
 ### Stop doing
 
 - Falta de organización.
+

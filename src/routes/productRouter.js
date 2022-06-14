@@ -6,6 +6,8 @@ router.get("/productDetail",productController.detail);
 router.get("/productCreateForm",productCreateController.index);
 
 
+
+
 module.exports =router; 
 
 

@@ -42,6 +42,12 @@ header {
     padding: 10px;
     font-size: 22px;
 }
+.faCart{
+    color: #fff;
+}
+.faUser{
+    color: #fff;
+}
 
 .iconos-barra-logo {
     display: flex;
@@ -623,11 +629,6 @@ main {
     width: 20%;
     padding: 10px;
 }
-.faCart{
-    color: #fff;
-}
-.faUser{
-    color: #fff;
-}
+
 
 }
