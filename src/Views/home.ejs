@@ -81,28 +81,41 @@
         
         </section>
         
-        <section class="top-artistas">
-            <h1>Preguntas Frecuentes <i class="fas fa-angle-down"></i></h1>
-            <div class="preguntas-frecuentes">
-            
-            <div clas="pregunta-1">Pregunta 1</div>
-            <i class="fas fa-angle-down"></i>
-            </div>
-            <div class="preguntas-frecuentes">
-                <div clas="pregunta-1">Pregunta 1</div>
-            <i class="fas fa-angle-down"></i>
-            </div>
-             <div class="preguntas-frecuentes">    
-                <div clas="pregunta-1">Pregunta 2</div>
-            <i class="fas fa-angle-down"></i>
-            </div>
-            <div class="preguntas-frecuentes">
-                <div clas="pregunta-1">Pregunta 3</div>
-            <i class="fas fa-angle-down"></i>
-                
-        </div>
-        
-        </section>
+      
+<div class="dropdown">
+    <button onclick=  "myFunction()" class="dropbtn"> Preguntas frecuentes </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home">¿Quiénes somos?</a>
+      <a href="#about">Formas de pago</a>
+      <a href="#contact">Contact</a>
+    </div>
+</div>
+  
+  
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    
+    </script>
+
+  
         
     </main>
     <%- include('./partials/footer') %>
