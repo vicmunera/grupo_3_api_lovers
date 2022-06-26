@@ -3,16 +3,13 @@ const fs = require('fs');
 
 const controller = {
     index: (req, res) => {
+        let ultProduct = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../Data/productDataBase.json")));
         res.render("productCreateForm")
     },
+
     create: (req, res) => {
-        res.send(req.body)
 
-    },
-
-    save: (req, res) => {
-
-        let ultProduct = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../Data/productDataBase.json')));
+        let ultProduct = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../Data/productDataBase.json")));
         const ultimoProduct = productDataBase.pop();
         productDataBase.push(ultimoProduct);
         const newProduct = {
@@ -31,7 +28,7 @@ const controller = {
         fs.writeFileSync(path.resolve(__dirname,'../Data/productDataBase.json'),
         guardarProduct)
 
-        res.redirect('/')
+        res.redirect('/home');
 
             
 
