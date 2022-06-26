@@ -1,8 +1,12 @@
 const express = require ("express");
 const path = require ("path");
+const bodyParser= require('body-parser');
+const multer = require('multer');
 const productRouter = require ("./routes/productRouter");
 const mainRouter = require ("./routes/mainRouter");
 const userRouter = require ("./routes/userRouter");
+const fs = require('fs');
+
 
 const methodOverride = require('method-override');
 
