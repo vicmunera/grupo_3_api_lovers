@@ -1,92 +1,49 @@
 [
-  {
-    "id": 1,
-    "price": "$380.76M",
-    "image": "ibroadey0",
-    "autor": "awarlow0",
-    "collection ": "tormerod0",
-    "category": "ajerred0",
-    "description": "mweber0"
-  },
-  {
-    "id": 2,
-    "price": "$2.55B",
-    "image": "omoral1",
-    "autor": "ctendahl1",
-    "collection ": "hcrutchley1",
-    "category": "sbroad1",
-    "description": "cmurrow1"
-  },
-  {
-    "id": 3,
-    "price": "$650.54M",
-    "image": "eradeliffe2",
-    "autor": "ltollet2",
-    "collection ": "jgolbourn2",
-    "category": "mnorcliff2",
-    "description": "jelstow2"
-  },
-  {
-    "id": 4,
-    "price": "$26.62B",
-    "image": "bglanz3",
-    "autor": "adelayglesias3",
-    "collection ": "echeevers3",
-    "category": "ltallman3",
-    "description": "hsmoth3"
-  },
-  {
-    "id": 5,
-    "price": "n/a",
-    "image": "kcoule4",
-    "autor": "fgeoghegan4",
-    "collection ": "eswaffer4",
-    "category": "slyall4",
-    "description": "agladman4"
-  },
-  {
-    "id": 6,
-    "price": "$17.94B",
-    "image": "hchelnam5",
-    "autor": "jmayer5",
-    "collection ": "dpringour5",
-    "category": "bstanbrooke5",
-    "description": "lraw5"
-  },
-  {
-    "id": 7,
-    "price": "n/a",
-    "image": "dcazalet6",
-    "autor": "kphethean6",
-    "collection ": "mpetre6",
-    "category": "cballard6",
-    "description": "lsalandino6"
-  },
-  {
-    "id": 8,
-    "price": "n/a",
-    "image": "rbrotherick7",
-    "autor": "amidgley7",
-    "collection ": "aluppitt7",
-    "category": "stodarello7",
-    "description": "proyle7"
-  },
-  {
-    "id": 9,
-    "price": "$47.58M",
-    "image": "rgerlack8",
-    "autor": "snoot8",
-    "collection ": "hbetteriss8",
-    "category": "oguiot8",
-    "description": "pcriple8"
-  },
-  {
-    "id": 10,
-    "price": "$8.81B",
-    "image": "lrabbet9",
-    "autor": "jthreadkell9",
-    "collection ": "aviccars9",
-    "category": "cdudson9",
-    "description": "lmacpadene9"
-  }
+ {
+  "id": 1,
+  "price": "$380.76M",
+  "image": "ibroadey0",
+  "autor": "awarlow0",
+  "category": "ajerred0",
+  "description": "mweber0"
+ },
+ {
+  "id": 2,
+  "price": "$2.55B",
+  "image": "omoral1",
+  "autor": "ctendahl1",
+  "category": "sbroad1",
+  "description": "cmurrow1"
+ },
+ {
+  "id": 3,
+  "price": "$650.54M",
+  "image": "eradeliffe2",
+  "autor": "ltollet2",
+  "category": "mnorcliff2",
+  "description": "jelstow2"
+ },
+ {
+  "id": 4,
+  "price": "$26.62B",
+  "image": "bglanz3",
+  "autor": "adelayglesias3",
+  "category": "ltallman3",
+  "description": "hsmoth3"
+ },
+ {
+  "id": 5,
+  "price": "n/a",
+  "image": "kcoule4",
+  "autor": "fgeoghegan4",
+  "category": "slyall4",
+  "description": "agladman4"
+ },
+ {
+  "id": 6,
+  "price": "5000",
+  "autor": "Edit",
+  "category": "Últimos agregados",
+  "description": "nada"
+ }
 ]
