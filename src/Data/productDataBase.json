@@ -45,5 +45,20 @@
   "autor": "Edit",
   "category": "Últimos agregados",
   "description": "nada"
+ },
+ {
+  "id": 7,
+  "price": "4444",
+  "autor": "Edit",
+  "category": "premium",
+  "description": "nbbbbbb"
+ },
+ {
+  "id": 8,
+  "price": "88888",
+  "image": "foto-1657078851937.png",
+  "autor": "bbbb",
+  "category": "premium",
+  "description": "bbbbbbb"
  }
 ]

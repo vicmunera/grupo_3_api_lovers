@@ -1,4 +1,4 @@
-# Retrospectiva - Sprint 2
+# Retrospectiva - Sprint 3
 
 ## Breve resumen:
 

@@ -19,7 +19,7 @@ const controller = {
 
             id: ultimoProduct.id + 1,
             price : req.body.price,
-            image: req.body.filename ,
+            image: req.file.filename ,
             autor: req.body.autor,
             collection: req.body.collection,
             category: req.body.category,
