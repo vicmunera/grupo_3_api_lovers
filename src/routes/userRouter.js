@@ -1,16 +1,15 @@
 const express = require ("express");
-const cartController = require ("../controllers/cartControllers"); 
-const usersControllers = require("../controllers/usersControllers");
 const path = require('path');
 const multer = require('multer');
 const router = express.Router();
-router.get("/productCart", cartController.cart);
 
+const cartController = require ("../controllers/cartControllers"); 
+const usersControllers = require("../controllers/usersControllers");
 
 // donde voy a guardar imagenes de los productos
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, path.resolve(__dirname, '../../public/images/usersImg'))
+        cb(null, path.resolve(__dirname, '../../public/images/users'))
     },
     filename: function (req, file, cb) {
         cb(null, 'foto' + '-' + Date.now() + path.extname(file.originalname));
@@ -20,6 +19,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage })
 
 
+router.get("/productCart", cartController.cart);
 router.get("/register", usersControllers.index);
 router.post("/register", upload.single('image'), usersControllers.create);
 
