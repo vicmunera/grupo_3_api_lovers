@@ -11,6 +11,15 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
+tr th{
+padding-inline-start:200px;
+
+}
+tr td{
+    padding-inline-start:210px; 
+}
+
+
 header {
     width: 100%;
     border-bottom: 2px;

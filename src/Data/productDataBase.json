@@ -1,64 +1,65 @@
 [
  {
-  "id": 1,
-  "price": "$380.76M",
-  "image": "ibroadey0",
-  "autor": "awarlow0",
-  "category": "ajerred0",
-  "description": "mweber0"
- },
- {
-  "id": 2,
-  "price": "$2.55B",
-  "image": "omoral1",
-  "autor": "ctendahl1",
-  "category": "sbroad1",
-  "description": "cmurrow1"
- },
- {
-  "id": 3,
-  "price": "$650.54M",
-  "image": "eradeliffe2",
-  "autor": "ltollet2",
-  "category": "mnorcliff2",
-  "description": "jelstow2"
- },
- {
-  "id": 4,
-  "price": "$26.62B",
-  "image": "bglanz3",
-  "autor": "adelayglesias3",
-  "category": "ltallman3",
-  "description": "hsmoth3"
- },
- {
   "id": 5,
-  "price": "n/a",
-  "image": "kcoule4",
-  "autor": "fgeoghegan4",
-  "category": "slyall4",
-  "description": "agladman4"
+  "name": "pierina",
+  "price": "5555",
+  "image": "foto-1657502271034.png",
+  "autor": "fffff",
+  "category": "premium",
+  "description": "gkgkgkg"
  },
  {
   "id": 6,
+  "name": "mono red",
   "price": "5000",
-  "autor": "Edit",
-  "category": "Últimos agregados",
-  "description": "nada"
+  "image": "foto-1657503602271.pdf",
+  "autor": "fffff",
+  "category": "premium",
+  "description": "gagagagag"
  },
  {
   "id": 7,
-  "price": "4444",
+  "name": "limit",
+  "price": "88",
+  "image": "foto-1657503648196.pdf",
   "autor": "Edit",
-  "category": "premium",
-  "description": "nbbbbbb"
+  "category": "Últimos días",
+  "description": "nnnnn"
  },
  {
   "id": 8,
-  "price": "88888",
-  "image": "foto-1657078851937.png",
-  "autor": "bbbb",
+  "name": "puebla",
+  "price": "kkkk",
+  "image": "foto-1657503668184.pdf",
+  "autor": "nnnnn",
+  "category": "Últimos agregados",
+  "description": "jjjjjj"
+ },
+ {
+  "id": 9,
+  "name": "indias",
+  "price": "iiii",
+  "image": "foto-1657503691070.pdf",
+  "autor": "jnnnn",
+  "category": "Últimos días",
+  "description": "njblbjlbjkvyf"
+ },
+ {
+  "id": 10,
+  "name": "vientos",
+  "price": "7777777",
+  "image": "foto-1657503711766.pdf",
+  "autor": "dvsdgs",
+  "category": "Últimos días",
+  "description": "vsdvsfhdsh"
+ },
+ {
+  "id": 11,
+  "name": "lazo",
+  "price": "99999",
+  "image": "foto-1657503732042.pdf",
+  "autor": "kkkkkbl",
   "category": "premium",
-  "description": "bbbbbbb"
+  "description": "nnnlnknpp"
  }
 ]

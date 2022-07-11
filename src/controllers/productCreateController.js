@@ -18,6 +18,7 @@ const controller = {
         const newProduct = {
 
             id: ultimoProduct.id + 1,
+            name:req.body.name,
             price : req.body.price,
             image: req.file.filename ,
             autor: req.body.autor,

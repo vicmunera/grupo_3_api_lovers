@@ -1,0 +1,56 @@
+
+<%- include('./partials/head') %>
+<body>
+    <%- include('./partials/header') %>
+    <main>
+        <!--Administrador de productos-->
+        <br>
+        <section class="row">
+          <article class="col-12 ">
+            <h2 class="admin">Administrador de Productos</h2>
+          </article>
+          <article class="col-12">
+            <a href="/product/productCreateForm">
+              <ion-icon name="add-circle-outline"></ion-icon>Agregar
+            </a>
+          </article>
+          <article class="col-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Ver</th>
+                  <th scope="col">Editar</th>
+                  <th scope="col">Borrar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% productDataBase.forEach(productDataBase=> { %>
+                  <tr>
+                    <td>
+                      <%= productDataBase.id%>
+                    </td>
+                    <td>
+                      <%= productDataBase.name%>
+                    </td>
+                    <td><a href="/admin/detail/<%= productDataBase.id%> ">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </a></td>
+                    <td><a href="/admin/edit/<%= productDataBase.id%> ">
+                        <ion-icon name="pencil-outline"></ion-icon>
+                      </a></td>
+                    <td><a href="/admin/delete/<%= productDataBase.id%>">
+                        <ion-icon name="trash-outline"></ion-icon>
+                      </a></td>
+                  </tr>
+                  <% }); %>
+              </tbody>
+            </table>
+          </article>
+        </section>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    </main>
+    
+  </body>
+  <%- include('./partials/footer.ejs') %>
