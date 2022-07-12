@@ -20,7 +20,7 @@ const controller = {
             username:req.body.username,
             email: req.body.email ,
             password: req.body.password,
-            image: req.file.image,
+            image: req.file.filename,
             date: req.body.date
          
 

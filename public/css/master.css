@@ -30,6 +30,22 @@ header {
 
 }
 
+.admin{
+    width: 100%;
+    color: #f1f1f1;
+    text-align: center;
+    background-color:#2c638d;
+}
+.titulo{
+    position:absolute;
+    text-align: center;
+    padding-bottom: 400px;
+  
+   
+}
+
+
+
 .logo {
     display: flex;
     justify-content: center;

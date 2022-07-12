@@ -1,0 +1,93 @@
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/header') %>
+            <main>
+
+
+
+
+
+                <div class="titulo">
+                    <h2>Actualizar un Producto</h2>
+                </div>
+
+
+
+                <section class="bg-home pt-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-8 mx-auto bg-light ">
+                                <div class="create-form">
+                                    <form action="<%= productEdit.id%>?_method=PUT
+                            " method="POST" enctype="multipart/form-data">
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="name" class="form-label">Nombre del producto:</label>
+                                            <input type="text" name="name" value="<%= productEdit.name%>"
+                                                class="form-input">
+                                        </div>
+                                        <br>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="price" class="form-label">Precio del producto:</label>
+                                            <input type="text" id="price" name="price" value="<%= productEdit.price%>"
+                                                class="form-input">
+                                        </div>
+                                        <br>
+                                        <div class="col-12 col-md-6">
+                                            <label for="discount" class="form-label">Autor:</label>
+                                            <input type="text" id="autor" name="autor" value="<%= productEdit.autor%>"
+                                                class="form-input">
+                                        </div>
+                                        <br>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="category" class="form-label">Categoría:</label>
+                                            <select name="category" id="category" class="form-input">
+                                                <option value="">
+                                                    <%= productEdit.category%>
+                                                </option>
+                                                <option value="premium">premium</option>
+                                                <option value="Últimos agregados">Últimos agregados</option>
+                                                <option value="Últimos días">Últimos días</option>
+                                                <option value="Más comprados">Más comprados</option>
+                                            </select>
+                                        </div>
+                                        <br>
+                                        <div class="col-12">
+                                            <label for="description" class="form-label">Descipción:</label>
+                                            <textarea name="description" id="description"> <%= productEdit.description%>  
+                                                </textarea>
+                                        </div>
+                                        <br>
+
+
+                                        <!-- Aquí solicito la imagen -->
+                                        <div class="custom-file">
+                                            <figure class="form-group">
+                                                <img class="w-100" src="/images/productImg/<%= productEdit.image%>"
+                                                    alt="product <%= productEdit.nombre%>">
+                                            </figure>
+                                            <br>
+                                            <input type="hidden" name="oldImagen" value="<%= productEdit.image%>">
+                                            <!--De esta forma logro conservar y que viaje la imagen anterior de esta forma evito que el usuario seleccione una imagen nuevamente, ( si no lo desea) -->
+                                            <input type="file" name="image">
+                                            <!--<input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="imagen" required value=""> 
+                                    <label class="custom-file-label" for="inputGroupFile01">Seleccione una imagen...</label>-->
+                                        </div>
+                                        <br>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn btn-info">Actualizar</button>
+                                            <button><a href="/admin" class="btn btn-danger">Volver</a></button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+    </body>
+    <%- include('./partials/footer.ejs') %>

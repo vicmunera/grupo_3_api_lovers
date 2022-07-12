@@ -26,5 +26,15 @@
   "email": "marcos@gmail.com",
   "password": "123456789",
   "date": "1879-05-22"
+ },
+ {
+  "id": 4,
+  "name": "mica",
+  "surname": "hals",
+  "username": "micah",
+  "email": "micah@gmail.com",
+  "password": "12345",
+  "image": "foto-1657574185710.pdf",
+  "date": "1999-05-06"
  }
 ]

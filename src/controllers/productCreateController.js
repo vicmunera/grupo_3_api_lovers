@@ -36,6 +36,31 @@ const controller = {
             
 
 
+    },
+
+    edit:(req,res)=>{
+        let productDataBase = JSON.parse(fs.readFileSync(path.resolve(__dirname,'../Data/productDataBase.json')));
+        const productId = req.params.id;
+        let productEdit = productDataBase.find(productDataBase => productDataBase.id == productId);
+        res.render(path.resolve(__dirname,'../Views/edit'), {productEdit});
+
+
+    },
+    put:(req,res)=>{
+        let productDataBase = JSON.parse(fs.readFileSync(path.resolve(__dirname,'../Data/productDataBase.json')));
+       req.body.id = req.params.id;
+       req.body.image = req.file ? req.file.filename : req.body.oldImagen;
+       let productPut = productDataBase.map(productDataBase =>{
+        if (productDataBase.id == req.body.id){
+            return productDataBase = req.body;
+        }
+        return productDataBase;
+       })
+       let productActualizar = JSON.stringify(productPut,null,2)
+       fs.writeFileSync(path.resolve(__dirname, '../Data/productDataBase.json'), productActualizar)
+       res.redirect('/admin')
+       
+
     }
 
 
