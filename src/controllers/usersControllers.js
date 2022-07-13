@@ -15,12 +15,14 @@ const controller = {
         
         const newUser = {
             id: ultimoUsuario.id + 1,
-            last_name : req.body.last_name,
+            name : req.body.name,
+            surname:req.body.surname,
+            username:req.body.username,
             email: req.body.email ,
             password: req.body.password,
-            image: req.file.image,
-            currency: req.body.currency,
-            country: req.body.country
+            image: req.file.filename,
+            date: req.body.date
+         
 
         }
 

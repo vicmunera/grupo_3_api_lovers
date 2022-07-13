@@ -11,6 +11,15 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
+tr th{
+padding-inline-start:200px;
+
+}
+tr td{
+    padding-inline-start:210px; 
+}
+
+
 header {
     width: 100%;
     border-bottom: 2px;
@@ -20,6 +29,22 @@ header {
     /* ver como dejar barra fija*/
 
 }
+
+.admin{
+    width: 100%;
+    color: #f1f1f1;
+    text-align: center;
+    background-color:#2c638d;
+}
+.titulo{
+    position:absolute;
+    text-align: center;
+    padding-bottom: 400px;
+  
+   
+}
+
+
 
 .logo {
     display: flex;

@@ -1,46 +1,40 @@
-[{
-    "id": 1,
-    "first_name": "Nappy",
-    "last_name": "Scherer",
-    "email": "nscherer0@so-net.ne.jp",
-    "password": "cYKBOzhS",
-    "image": "nscherer0",
-    "currency": "UAH",
-    "country": "Ukraine"
-  }, {
-    "id": 2,
-    "first_name": "Wynn",
-    "last_name": "Bohan",
-    "email": "wbohan1@technorati.com",
-    "password": "aWlEhk69e",
-    "image": "wbohan1",
-    "currency": "ARS",
-    "country": "Argentina"
-  }, {
-    "id": 3,
-    "first_name": "Conrade",
-    "last_name": "Attawell",
-    "email": "cattawell2@google.fr",
-    "password": "FvE5wgvyepS",
-    "image": "cattawell2",
-    "currency": "EUR",
-    "country": "Ireland"
-  }, {
-    "id": 4,
-    "first_name": "Aimee",
-    "last_name": "Samet",
-    "email": "asamet3@plala.or.jp",
-    "password": "TDEo8Qlfb37Z",
-    "image": "asamet3",
-    "currency": "PEN",
-    "country": "Peru"
-  }, {
-    "id": 5,
-    "first_name": "Garnette",
-    "last_name": "Starkie",
-    "email": "gstarkie4@sfgate.com",
-    "password": "ZECRkz",
-    "image": "gstarkie4",
-    "currency": "CNY",
-    "country": "China"
-  }]
+[
+ {
+  "id": 1,
+  "name": "Nappy",
+  "surname": "Scherer",
+  "username": "marcos",
+  "email": "nscherer0@so-net.ne.jp",
+  "password": "cYKBOzhS",
+  "image": "nscherer0",
+  "date": "21/07/1997"
+ },
+ {
+  "id": 2,
+  "name": "carlos ",
+  "surname": "lopez",
+  "username": "carlospe",
+  "email": "carlos@gmail.com",
+  "password": "123456",
+  "date": "1992-07-06"
+ },
+ {
+  "id": 3,
+  "name": "Marcos",
+  "surname": "perez",
+  "username": "marcos",
+  "email": "marcos@gmail.com",
+  "password": "123456789",
+  "date": "1879-05-22"
+ },
+ {
+  "id": 4,
+  "name": "mica",
+  "surname": "hals",
+  "username": "micah",
+  "email": "micah@gmail.com",
+  "password": "12345",
+  "image": "foto-1657574185710.pdf",
+  "date": "1999-05-06"
+ }
+]

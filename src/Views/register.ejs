@@ -1,74 +1,51 @@
 <%- include('./partials/head') %>
+
   <body>
     <%- include('./partials/header') %>
 
-<main class="register-body">
-    <div class="user-img">
+      <main class="register-body">
+        <!-- <div class="user-img">
         <label class="header">Profile Photo:</label>
         <div class="foto-perfil"></div>
-                <input id="image" type="file" name="profile_photo" placeholder="Foto de perfil" capture>
-    </div>
+                <input id="image" type="file" name="image" placeholder="Foto de perfil" capture>
+    </div> -->
 
-    <div class="user-info">
-      <form action="POST" class="login-form">
-        <label for="name">Nombre</label>
-        <input
-          type="text"
-          class="login-input"
-          required
-          placeholder="Nombre"
-          minlength="4"
-        />
-        
-        <label for="surname">Apellido</label>
-        <input
-          type="text"
-          class="login-input"
-          required
-          placeholder="Apellido"
-          minlength="3"
-        />
+        <div class="user-info">
+          <form action="/user/register" method="post" enctype='multipart/form-data' class="login-form">
+            <label for="name">Nombre</label>
+            <input name="name" type="text" class="login-input" required placeholder="Nombre" minlength="4" />
+            <div class="user-img">
+              <label class="header">Foto de perfil:</label>
+              <div class="foto-perfil"></div>
+              <input  type="file" name="image" placeholder="Foto de perfil" capture>
+            </div>
 
-        <label for="date">Fecha de nacimiento</label>
-        <input type="date" class="login-input" required />
+            <label for="surname">Apellido</label>
+            <input name="surname" type="text" class="login-input" required placeholder="Apellido" minlength="3" />
 
-        <label for="username">Usuario</label>
-        <input
-          type="text"
-          class="login-input"
-          required
-          placeholder="Nombre de usuario"
-          minlength="5"
-        />
+            <label for="date">Fecha de nacimiento</label>
+            <input name="date" type="date" class="login-input" required />
 
-        <label for="email">Email</label>
-        <i class="fa fa-envelope icon"></i><input type="email" class="login-input" required placeholder="E-mail" />
-         
-        <label for="psw">Contraseña</label>
-        <input
-          type="password"
-          class="login-input"
-          required
-          minlength="5"
-          placeholder="Contraseña"
-        />
+            <label for="username">Usuario</label>
+            <input name="username" type="text" class="login-input" required placeholder="Nombre de usuario" minlength="5" />
 
-        <label for="psw2">Repetir Contraseña</label>
-        <input
-          type="password"
-          class="login-input"
-          required
-          minlength="5"
-          placeholder="Repetir contraseña"
-        />
+            <label for="email">Email</label>
+            <i class="fa fa-envelope icon"></i><input name="email" type="email" class="login-input" required placeholder="E-mail" />
 
-        <button class="login-button" type="submit">Crear cuenta</button>
-        <button class="login-button" type="reset">Borrar datos</button>
-      </form>
-    </div>
-    </main>
+            <label for="psw">Contraseña</label>
+            <input name="password" type="password" class="login-input" required minlength="5" placeholder="Contraseña" />
 
-    <%- include('./partials/footer') %>
- 
-</body>
-</html>
+            <label for="psw2">Repetir Contraseña</label>
+            <input type="password" class="login-input" required minlength="5" placeholder="Repetir contraseña" />
+
+            <button class="login-button" type="submit">Crear cuenta</button>
+            <button class="login-button" type="reset">Borrar datos</button>
+          </form>
+        </div>
+      </main>
+
+      <%- include('./partials/footer') %>
+
+  </body>
+
+  </html>
