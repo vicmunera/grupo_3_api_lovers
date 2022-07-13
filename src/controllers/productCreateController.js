@@ -61,7 +61,16 @@ const controller = {
        res.redirect('/admin')
        
 
+    },
+    destroy:(req,res)=>{
+        let productDataBase = JSON.parse(fs.readFileSync(path.resolve(__dirname,'../Data/productDataBase.json')));
+        const productDelete = req.params.id;
+        const productFinal = productDataBase.filter(productDataBase => productDataBase.id != productDelete);
+        const productGuardar = JSON.stringify(productFinal,null,2);
+        fs.writeFileSync (path.resolve(__dirname, '../Data/productDataBase.json'), productGuardar)
+        res.redirect("/admin")
     }
+
 
 
 }
