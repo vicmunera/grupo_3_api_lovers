@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcryptjs');
+const { validationResult } = require('express-validator');
 
 const controller = {
     index: (req, res) => {
@@ -32,7 +33,17 @@ const controller = {
         res.redirect('/');
     },
    
+    processRegister: (req, res) => {
+		const resultValidation = validationResult(req);
 
+		if (resultValidation.errors.length > 0) {
+			return res.render('register', {
+				errors: resultValidation.mapped(),
+				// oldData: req.body
+			});
+		}
+
+}
 }
 
 module.exports = controller;
