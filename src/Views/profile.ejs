@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+    <body>
+        <%- include('./partials/header') %>
+        <div >
+            <div >
+                <div >
+                    <h2>Hola <%= userDataBase.name %> </h2>
+                    <div class="foto-perfil">
+                    <img src="/img/usersImg/<%= userDataBase.image %> ">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="login-input"><%= user.email %> </div>
+                </div>
+            </div>
+        </div>
+    <%- include('./partials/footer') %>
+</body>
+</html>
+
+
+	
+	

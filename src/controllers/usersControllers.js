@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-
+const bcrypt = require('bcryptjs')
 
 const controller = {
     index: (req, res) => {
@@ -30,7 +30,8 @@ const controller = {
         const guardarUsuario = JSON.stringify(userDataBase,null, " ");
         fs.writeFileSync(path.resolve(__dirname,'../Data/userDataBase.json'),guardarUsuario);
         res.redirect('/');
-    }
+    },
+   
 
 }
 

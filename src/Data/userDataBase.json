@@ -36,5 +36,15 @@
   "password": "12345",
   "image": "foto-1657574185710.pdf",
   "date": "1999-05-06"
+ },
+ {
+  "id": 5,
+  "name": "maggie",
+  "surname": "gonza",
+  "username": "maggiegonzalezp",
+  "email": "margarita.gonzalez@vicentelopez.gov.ar",
+  "password": "123456",
+  "image": "foto-1658109294799.jpeg",
+  "date": "2008-08-18"
  }
 ]
