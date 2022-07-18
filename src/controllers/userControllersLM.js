@@ -26,8 +26,6 @@ const controller = {
             password: bcrypt.hashSync(req.body.password, 10),
             image: req.file.filename,
             date: req.body.date
-         
-
         }
 
         userDataBase.push(newUser);

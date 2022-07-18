@@ -46,5 +46,15 @@
   "password": "123456",
   "image": "foto-1658109294799.jpeg",
   "date": "2008-08-18"
+ },
+ {
+  "id": 6,
+  "name": "trini",
+  "surname": "pepe",
+  "username": "trinipp",
+  "email": "trini@hotmail.com",
+  "password": "$2a$10$qdDvppy/q1fMsWiDI6ZuAe5OvMA77IKj1TPsNn24F8tm.MZ6dELNG",
+  "image": "foto-1658187081112.jpeg",
+  "date": "2007-07-07"
  }
 ]
