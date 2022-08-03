@@ -1,26 +1,4 @@
 
-// 		let userInDB = User.findByField('email', req.body.email);
-
-// 		if (userInDB) {
-// 			return res.render('register', {
-// 				errors: {
-// 					email: {
-// 						msg: 'El email ya está registrado'
-// 					}
-// 				},
-// 				oldData: req.body
-// 			});
-// 		}
-
-		
-
-// 		let userCreated = User.create(userToCreate);
-
-//     login: (req, res) => {
-
-// 		return res.render('login');
-// 	},
-
 //     loginProcess: (req, res) => {
 // 		let userToLogin = User.findByField('email', req.body.email);
 		
@@ -45,14 +23,7 @@
 // 			});
 // 		}
 
-// 		return res.render('login', {
-// 			errors: {
-// 				email: {
-// 					msg: 'No se encuentra este email en nuestra base de datos'
-// 				}
-// 			}
-// 		});
-// 	},
+
 
 //     profile: (req, res) => {
 
@@ -82,7 +53,7 @@
 
 
 
-// // ver despues const User = require('../models/User');
+
 
 
 	

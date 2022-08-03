@@ -1,9 +1,8 @@
-# Retrospectiva - Sprint 1
+# Retrospectiva - Sprint 6
 
 ## Punto de Partida:
 
-En un primer momento, la organización del grupo pareció darse sola. Casi sin hablarlo, cada uno emprendió distintas tareas y realizó un aporte al grupo. Los resultados fueron más que buenos.
-De todos modos, ya en el nuevo Sprint la costumbre nos jugó en contra. Esta vez se requería más organización. Para evitar que esto vuelva a ocurrir al encarar el nuevo sprint hicimos una retrospectiva utilizando el método Estrella de Mar (Starfish retrospective) y llegamos a las siguientes conclusiones:
+- seguimos con tareas atrazadas y falta de organización. 
 
 ### Start doing
 
